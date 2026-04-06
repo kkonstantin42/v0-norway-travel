@@ -35,27 +35,6 @@ export default function HomePage() {
     <div className="min-h-screen bg-background">
       <Header />
 
-      {/* Hero Section */}
-      <section className="relative bg-primary overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path d="M0,100 L0,60 Q25,40 50,60 T100,60 L100,100 Z" fill="currentColor" />
-            <path d="M0,100 L0,70 Q35,50 70,70 T100,70 L100,100 Z" fill="currentColor" opacity="0.5" />
-          </svg>
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-          <div className="max-w-2xl">
-            <h2 className="font-serif text-4xl md:text-5xl font-medium text-primary-foreground mb-4 text-balance">
-              Explore the Wonders of Norway
-            </h2>
-            <p className="text-primary-foreground/80 text-lg leading-relaxed">
-              From dramatic fjords to the northern lights, discover the most breathtaking 
-              destinations Norway has to offer. Plan your perfect Norwegian adventure.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Controls Bar */}

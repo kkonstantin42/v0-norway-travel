@@ -17,7 +17,7 @@ export interface NorwayPlace {
   highlights: string[]
 }
 
-export const norwayPlaces: NorwayPlace[] = [
+export const places: NorwayPlace[] = [
   {
     id: "bergen-bryggen",
     name: "Bergen — Bryggen & Fløibanen",
